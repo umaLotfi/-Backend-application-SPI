@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="projet-1">
+		<class>com.dosi.projet.Enseignant</class>
+		<class>com.dosi.projet.Etudiant</class>
+		<class>com.dosi.projet.Formation</class>
+		<class>com.dosi.projet.Candidat</class>
+		<class>com.dosi.projet.Promotion</class>
+		<class>com.dosi.projet.PromotionPK</class>
+		<class>com.dosi.projet.ElementConstitutif</class>
+		<class>com.dosi.projet.ElementConstitutifPK</class>
+		<class>com.dosi.projet.UniteEnseignement</class>
+		<class>com.dosi.projet.UniteEnseignementPK</class>
+	</persistence-unit>
+</persistence>
