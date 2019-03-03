@@ -7,9 +7,5 @@
 		<class>com.dosi.projet.Candidat</class>
 		<class>com.dosi.projet.Promotion</class>
 		<class>com.dosi.projet.PromotionPK</class>
-		<class>com.dosi.projet.ElementConstitutif</class>
-		<class>com.dosi.projet.ElementConstitutifPK</class>
-		<class>com.dosi.projet.UniteEnseignement</class>
-		<class>com.dosi.projet.UniteEnseignementPK</class>
 	</persistence-unit>
 </persistence>

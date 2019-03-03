@@ -46,11 +46,7 @@ public class Formation implements Serializable {
 		@JsonIgnore
 		private List<Promotion> promotions;
 
-		//bi-directional many-to-one association to UniteEnseignement
-		@OneToMany(mappedBy="formation")
-		@JsonIgnore
-		private List<UniteEnseignement> uniteEnseignements;
-
+		
 
 	public Formation() {
 	}
