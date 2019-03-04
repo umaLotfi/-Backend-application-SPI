@@ -1454,3 +1454,7 @@ Caused by: java.sql.SQLSyntaxErrorException: User 'uvqudomq0y3bvlp1' has exceede
 2019-03-04 11:26:10.805  INFO 4704 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteAllCandidatUsingTRACE_1
 2019-03-04 11:26:10.857  INFO 4704 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2019-03-04 11:26:10.859  INFO 4704 --- [main] com.dosi.projet.Projet1Application       : Started Projet1Application in 12.769 seconds (JVM running for 13.346)
+2019-03-04 11:31:05.975  INFO 4704 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-03-04 11:31:05.984  INFO 4704 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-04 11:31:06.000  INFO 4704 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-03-04 11:31:06.008  INFO 4704 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
